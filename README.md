@@ -18,7 +18,7 @@
 ## Status
 - [x] Plan project
 - [ ] Write the logic
-- [ ] Build the UI
+- [x] Build the UI
 - [ ] Final check
 - [ ] Project is finished
 
