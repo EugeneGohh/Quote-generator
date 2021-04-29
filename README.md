@@ -1,3 +1,27 @@
+#Quote Generator Using React
+
+## Contents
+* [Info](#Info)<br>
+* [Technologies Used](#Technologies-Used)<br>
+* [Status](#Status)<br>
+
+## Info
+> A generator that generate quote using React
+
+## Technologies-Used
+1. JavaScript
+2. React
+3. npm
+5. HTML & CSS
+6. Git & GitHub
+
+## Status
+- [x] Plan project
+- [ ] Write the logic
+- [ ] Build the UI
+- [ ] Final check
+- [ ] Project is finished
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
