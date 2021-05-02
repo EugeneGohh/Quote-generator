@@ -17,8 +17,9 @@
 
 ## Status
 - [x] Plan project
-- [ ] Write the logic
+- [x] Write the logic
 - [x] Build the UI
+- [ ] Adjust for responsiveness
 - [ ] Final check
 - [ ] Project is finished
 
@@ -92,4 +93,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# quote-generator
