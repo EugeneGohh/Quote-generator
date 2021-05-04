@@ -25,8 +25,8 @@ const allQuotes = [
 
   {
     text:
-      "It is our choices, that show what we truly are, far more than our abilities.",
-    author: "J. K Rowling",
+      "Only a life lived for others is a life worthwhile.",
+    author: "Albert Einstein",
   },
 ];
 
@@ -52,6 +52,7 @@ function Card() {
     <div className="card">
       <div className="card_container">
           <p>{allText}</p>
+          <br />
           <p><b>By: {allAuthor}</b></p>
         <button onClick={handleClick}>Click me!</button>
       </div>

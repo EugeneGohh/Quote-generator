@@ -1,0 +1,87 @@
+.card {
+  background-color: #333;
+  width: 50vw;
+  height: 50vh;
+  padding: 8% 30px 8.5% 30px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50vw;
+  top: 55vh;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 1px 1px 8px black, -1px -1px 8px grey;
+  box-shadow: 1px 1px 8px black, -1px -1px 8px grey;
+  background: #c779d0;
+}
+
+.card_container {
+  text-align: center;
+  border: none !important;
+}
+
+.card_container > p {
+  position: relative;
+  top: -30px;
+  color: #222;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4em;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+button {
+  position: absolute;
+  top: 32vh;
+  left: 15vw;
+  margin: 15px 0 0 0;
+  width: 20vw;
+  cursor: pointer;
+  background-color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  color: whitesmoke;
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 1px 1px 8px black, -1px -1px 8px grey;
+  box-shadow: 1px 1px 8px black, -1px -1px 8px grey;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  -webkit-box-shadow: 1px 1px 6px black, -1px -1px 6px grey,
+    inset 0 0 5px #323232;
+  box-shadow: 1px 1px 6px black, -1px -1px 6px grey, inset 0 0 5px #323232;
+}
+
+button:active {
+  background-color: #323232;
+  -webkit-box-shadow: 0 0 0 black, 0 0 0 grey, inset 1px 1px 5px black,
+    inset -1px -1px 5px grey;
+  box-shadow: 0 0 0 black, 0 0 0 grey, inset 1px 1px 5px black,
+    inset -1px -1px 5px grey;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    width: 85vw;
+    height: 50vh;
+  }
+
+  button {
+    width: 60vw;
+    left: 13vw;
+  }
+
+  .card_container > p {
+    position: relative;
+    top: 8vh;
+    font-size: 1.9em;
+    line-height: 40px;
+  }
+}
