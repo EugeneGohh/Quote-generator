@@ -19,9 +19,9 @@
 - [x] Plan project
 - [x] Write the logic
 - [x] Build the UI
-- [ ] Adjust for responsiveness
-- [ ] Final check
-- [ ] Project is finished
+- [x] Adjust for responsiveness
+- [x] Final check
+- [x] Project is finished
 
 # Getting Started with Create React App
 
