@@ -84,7 +84,7 @@ button:active {
   .card_container > p {
     position: relative;
     top: 5vh;
-    font-size: 1.75em;
+    font-size: 1.50em;
     line-height: 40px;
   }
 }
