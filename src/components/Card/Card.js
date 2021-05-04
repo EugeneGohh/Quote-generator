@@ -24,8 +24,7 @@ const allQuotes = [
   },
 
   {
-    text:
-      "Only a life lived for others is a life worthwhile.",
+    text: "Only a life lived for others is a life worthwhile.",
     author: "Albert Einstein",
   },
 ];
@@ -51,9 +50,11 @@ function Card() {
   return (
     <div className="card">
       <div className="card_container">
-          <p>{allText}</p>
-          <br />
-          <p><b>By: {allAuthor}</b></p>
+        <p>{allText}</p>
+        <br />
+        <p>
+          <b>By: {allAuthor}</b>
+        </p>
         <button onClick={handleClick}>Click me!</button>
       </div>
     </div>
