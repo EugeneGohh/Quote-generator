@@ -18,6 +18,7 @@
 .card_container {
   text-align: center;
   border: none !important;
+  background: none;
 }
 
 .card_container > p {
@@ -28,6 +29,7 @@
   font-size: 1.4em;
   font-weight: 500;
   line-height: 35px;
+  background: none;
 }
 
 button {
@@ -69,6 +71,7 @@ button:active {
 
 @media only screen and (max-width: 1000px) {
   .card {
+    top: 50vh;
     width: 85vw;
     height: 50vh;
   }
@@ -80,8 +83,8 @@ button:active {
 
   .card_container > p {
     position: relative;
-    top: 8vh;
-    font-size: 1.9em;
+    top: 5vh;
+    font-size: 1.75em;
     line-height: 40px;
   }
 }
