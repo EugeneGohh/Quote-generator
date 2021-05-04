@@ -23,12 +23,11 @@
 
 .card_container > p {
   position: relative;
-  top: -30px;
+  top: -20px;
   color: #222;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.4em;
+  font-size: 1.39em;
   font-weight: 500;
-  line-height: 35px;
   background: none;
 }
 
@@ -83,7 +82,6 @@ button:active {
 
   .card_container > p {
     position: relative;
-    top: 5vh;
-    font-size: 1.50em;
+    top: 8vh;
   }
 }
