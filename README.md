@@ -2,13 +2,13 @@
 
 ## Contents
 * [Info](#Info)<br>
-* [Technologies Used](#Technologies-Used)<br>
+* [Technologies Used](#Technologies)<br>
 * [Status](#Status)<br>
 
 ## Info
 > A generator that generate quote using React
 
-## Technologies-Used
+## Technologies
 1. JavaScript
 2. React
 3. npm
